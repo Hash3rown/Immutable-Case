@@ -1,229 +1,142 @@
-# Immutable-Case
-MONU-ftbc week one assignment
 
-
-# Unit 1 Homework Assignment: FinTech Case Study
-
-## Background
-
-As a FinTech professional, it is critical to learn how FinTech companies start, evolve, and grow, and to be able to speak knowledgeably about the major players in the FinTech space. Even those in a highly technical role must stay abreast of what is happening in the business landscape, as many FinTech companies create tools and technologies that are then used by other companies.
-
-One of the key methods used to conduct corporate analysis is the **case study**. Case studies are often 50–100 pages or more, but your task is to create a more focused case study that analyzes how a Canadian FinTech company is responding to the problems and needs of the FinTech domain it is in, and how it is using technology to solve a standing financial problem in Canada.
-
-In this homework assignment, you will:
-
-* Select a FinTech domain that interests you, and then choose a Canadian company or project within that domain.
-
-* Research the domain and company.
-
-* Write a detailed case study of the company.
-
-* Upload your case study to your git repository.
-
-This assignment will challenge you to polish your FinTech research skills by accessing reports, publications, and online resources that FinTech professionals use to evaluate the industry.
-
-It will also help you situate the techniques and technologies you will be mastering in this course––e.g., machine learning, Python, modeling, blockchain––within the real world of global FinTech. Finally, it will give you practice presenting and speaking about FinTech strategy and technology.
-
----
-
-## Instructions
-
-### 1. Choose a FinTech domain that you find relevant or interesting
-
-**Note:** We covered a number of FinTech domains in class this week. If you already have a Canadian company in mind that you want to research, skip ahead to Step 3.
-
-* Payments/Billing
-
-* Capital Investment
-
-* Investment Management
-
-* Wealth Management
-
-* Enterprise Solutions
-
-* Insurance (InsurTech)
-
-* Mortgage/Real Estate
-
-* Personal Finance/Deposits/Online Banking
-
-* Lending
-
-* Blockchain and Cryptocurrencies
-
-* Regulation Technology (RegTech)
-
-* Open Banking
-
-* Robo-advising
-
-Remember that because FinTech is an evolving field, different FinTech reports may use different names and definitions for various domains and sectors (e.g., CB Insights, Investopedia, Accenture). In addition, you may come across lists of FinTech domains online that are either longer or shorter than the list above; there is no one comprehensive list.
-
-### 2. Choose a Canadian company (or project) within  your chosen FinTech domain
-
-Use online research tools to identify the trends in your domain in the Canadian market, and choose a Canadian company that is successful or otherwise interesting to you. For example, if you chose Wealth Management, you may want to look at online journals, periodicals, reports, and websites about the future of Wealth Management, or how FinTech is changing or disrupting Wealth Management in Canada.
-
-Your company could be:
-
-* A new, emerging Canadian FinTech company that is doing well in a particular domain. Examples include Coinsquare, Borrowell, Shopify, or Finaeo.
-
-* A large incumbent financial or technology company that is doing something interesting and new with technology. Examples include: National Bank of Canada Blockchain, Goldman Sachs’ Marcus, JP Morgan’s JPMCoin, Facebook Libra, and Apple Card.
-
-* A smaller start-up that is not yet wildly successful, but that you find promising and interesting. This may include a FinTech company in your local area or a company with a new idea that you would like to learn more about.
-
-### 3. Conduct your research, using the case study template as a guide
-
-We recommend that you use the case study template below in order to focus your research. You may lengthen, shorten, or––if necessary––remove sections from the template to accommodate the information available about your company.
-
-**Note:** If you have chosen a project within a larger company (such as the Apple Credit Card), you may want to focus your research on the origins and scope of the project rather than on the company itself.
-
-#### Case Study Template
-
-```
-# TITLE
-
+# Immutable - Monetizing Gaming for the Player
 ## Overview and Origin
+![Logo](images/logo.jpg)
 
 * Name of company
 
+Immutable PTY LTD, formerly FUEL Games
+
 * When was the company incorporated?
+
+24 September 2020
 
 * Who are the founders of the company?
 
+James and Robbie Ferguson
+
 * How did the idea for the company (or project) come about?
+
+The founders of Immutable developed 'Gods Unchained', a play-to-earn digital trading card game built on the Ethereum blockchain. The challenges brought about by the immense success of this game lead to the development of Immutable. 
 
 * How is the company funded? How much funding have they received?
 
+The company is privately funded, recently raising more than $15m in a series A round in 2020.
 
 ## Business Activities:
 
 * What specific financial problem is the company or project trying to solve?
 
+Immutable aims to disrupt the gaming industry by putting the value of in-game collectibles/purchases back in the hands of the player. In-Game purchases on unique items, skins, upgrades and expansions represent one of the biggest revenue streams for major video game platforms but, in most cases the player does not stand to benefit from this market. Immutable aims to solve this by creating a peer to peer marketplace for gaming collectibles where players decide the value of items being sold.
+Additionally the cost and speed of transacting directly on the Ethereum blockchain is ever-increasing as the network grows, becomes more congested and struggles to keep up with it's own network-effect. Immutable offers Immutable X to combat this - a scaling solution for game developers to build on. Immutable x's technology dramatically increases the speed of transactions on it's marketplace as well as reducing costs - without compromising on the level of security and decentralization at the core of the host blockchain.
+
+
 * Who is the company's intended customer?  Is there any information about the market size of this set of customers?
+
+Immutable's website claims that "$100bn was spent on in-game items last year. $0 went to players". This estimate is supported by a NewZoo report (graphic below) on the global games market, projecting $159bn would be spent by gamers in 2020.
+
+![2020_gaming_revenue](https://newzoo.com/wp-content/uploads/2020/05/Newzoo_Games_Market_Revenues_2020-1024x576.png)
 
 * What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
 
+The Immutable X engine offers speed and volume of transactions not yet seen in the space. Collectibles marketplaces do exist using Ethereum (NFTX, Rarible, Opensea, Beeple, Portion) but none are aimed specifically at the gaming sector and at present they are all limited by the congestion and costs of the Ethereum blockchain. Immutable aims to break away from this by implementing new scalability technology to its online exchange.
+
 * Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing–– you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
+
+There are several cutting edge technologies being leveraged to reach Immutable's end goal of disrupting mainstream gaming, and providing a scalable, user friendly, secure trading platform for gaming collectibles.
+
+Immutable has chosen Ethereum as its blockchain home, and thus it will ultimately rely on smart contract coding, written in Solidity - Ethereum's native coding language. This allows the use of a unique and very useful token standard - ERC-721, also known as a 'Non-Fungible-Token'.
+
+The core principal in focus here is ownership. Immutable uses NFT's to represent and solidify ownership of a digital asset (such as trading card, in game item or even digital artwork). This tokenized ownership can then be sold over an open market, allowing the user base to decide its worth. Given the transparent nature of a public blockchain, all sales, creations and transactions will be recorded and a sales history will be readily available for any item on the marketplace.
+
+![immutable x](images/EuUIDkhXMAQuaxb.jpeg)
+
+Immutable's exchange will be built on Immutable X, an engine that uses zero-knowledge (ZK) rollups on Ethereum, this is a scalability technology developed by Starkware, allowing massive groups of individual transactions to be batched and simultaneously verified by the blockchain, dramatically reducing costs and improving overall transaction rate (tps).
 
 ## Landscape:
 
 * What domain of the financial industry is the company in?
 
+Blockchain/Cryptocurrency
+
 * What have been the major trends and innovations of this domain over the last 5-10 years?
 
+While this domain is still in its infancy, major trends have been centered around providing financial products and tools outside if the traditional finance realm. Decentralized exchanges, used to trade various crypto-currency assets make up the bulk of this movement but the NFT sector is expanding at an astronomical rate. The concept of tokenized ownership can be applied to almost any goods and/or services, not just art or gaming.
+
 * What are the other major companies in this domain?
+
+The blockchain/cryptocurrency domain consists of Companies as well as Decentralized entities and organizations. Major players include currency exchanges like Coinbase and Binance. Other blockchain based technology companies and entities that are emerging as competition for Ethereum are; Polkadot, Cardano, Solana and more.
+
+In terms of direct competitors to Immutable, NFT exchanges such as Rarible as previously mentioned come to mind, however immutable aims to directly compete with major video-game labels offering in-game purchases such as EA Sports, Ubisoft, Rare, Epic games and Tencent games.
 
 ## Results
 
 * What has been the business impact of this company so far?
 
+Immutable is still an emerging company using and creating emerging technology. Its impact will be seen as the Immutable X engine rolls out and the Immutable marketplace goes live. It is backed by powerful players in the blockchain investing world (Naspers Ventures, Apex Capital Partners) and the ease with which it was able to raise capital indicates strong conviction by investors in the space.
+
 * What are some of the core metrics that companies in this domain use to measure success? How is your company performing, based on these metrics?
 
+Information on financial performance is not yet available.
+
 * How is your company performing relative to competitors in the same domain?
+
+As above.
 
 ## Recommendations
 
 * If you were to advise the company, what products or services would you suggest they offer? (This could be something that a competitor offers, or use your imagination!)
 
+A logical and probable step for immutable would be to offer a secure digital wallet solution. Key areas of focus would be UX (user experience) and of course security for high value and rare assets.
+
 * Why do you think that offering this product or service would benefit the company?
+
+The key to success with a business like Immutable is mass adoption. This would require a frictionless, simple user interface, providing for a user experience far superior to that which exists in the Ethereum ecosystem presently. If Immutable, using Immutable X can capture even a small percentage of market share of in-game purchasing it will be an immensely valuable platform with massive growth potential.
 
 * What technologies would this additional product or service utilize?
 
+For security it would be imperative to utilize multi-factor authentication, ensuring that malicious parties cannot seize control of a customers wallet. 
+
+In terms of user experience a mobile solution would be vital, utilizing Android and iOS.
+
 * Why are these technologies appropriate for your solution?
-```
 
-### 4. Write the case study
+These are the technologies already in the hands of the consumer. A customer need not know that he/she is transacting on the Ethereum blockchain as long as they can buy, sell and play with little effort.
 
-Write the finished case study report in a markdown `README.md` file, using the above case study template. Your report should be sufficiently long to ensure you provide all relevant information about the company or project in a thorough manner.
+## Sources
 
-Be sure to cite your sources in an addendum at the end of the report. List all websites, podcasts, blogs, or articles that you consulted in order to write the report, and provide links. Your list should be thorough and account for all sources you used, but it does not need to be a formal works cited page.
+### Immutable
+https://www.immutable.com/
 
-### 5. Upload your case study to your git repository
+### Businesswire
+https://www.businesswire.com/news/home/20190923005249/en/Immutable-Raises-15-Million-in-Series-A-Funding-from-Naspers-Ventures-and-Galaxy-Digital-EOS-VC-Fund#:~:text=Immutable%20founders%2C%20James%20and%20Robbie%20Ferguson.
 
-You learned some technical aspects of FinTech this week, including how to set up and populate a git repository. As a final step, take your finished case study and upload it to a repository to share with your instructor and class.
+### Austrailian Business Register
+https://abr.business.gov.au/AbnHistory/View?id=89626193351
 
----
+### Pitchbook
+https://pitchbook.com/profiles/company/230704-12#overview
 
-## Resources
+### Newzoo
+https://newzoo.com/insights/articles/newzoo-games-market-numbers-revenues-and-audience-2020-2023/
 
-### FinTech Companies and Domains
+### ERC-721 information - Ethereum Improvement Proposals
+https://eips.ethereum.org/EIPS/eip-721
 
-For an overview of some of the most successful companies across FinTech domains, check out these resources:
+### Immutable blog post on Ethereum scaling solutions
+https://www.immutable.com/blog/a-guide-to-nft-scaling-solutions
 
-* [Canada has a rosy future in fintech, but obstacles remain, expert says](https://www.cpacanada.ca/en/news/innovation/2019-11-04-canada-fintech-trends)
+### Starkware (ZK rollups)
+https://starkware.co/
 
-* [Canadian fintech adoption rate hits 50 per cent, but still trails global peers: EY](https://business.financialpost.com/technology/canadian-fintech-adoption-rate-hits-50-per-cent-but-still-trails-global-peers-ey)
+### Cointelegraph
+https://cointelegraph.com/news/gotta-collect-em-all-an-overview-of-nft-marketplaces
 
-* [The 2019 Canadian fintech market map](https://www.pwc.com/ca/en/industries/technology/canadian-fintech-market-map.html)
+### Naspers
+https://www.naspers.com/
 
-* [Canadian Fintech Industry Set to Witness Strong Grow: Report](https://fintechnews.ch/fintech/fintech-canada-report/19783/)
+### Apex Capital
+https://www.apexcapital.com.au/
 
-* [Introducing The FinTech Landscape In Canada](http://www.industryandbusiness.ca/development-and-innovation/introducing-the-fintech-landscape-in-canada)
 
-* [Status of the Canadian FinTech Landscape](https://www.cfamontreal.org/static/uploaded/Files/Presentation/19-02-07-David_Nault_Rendez-Vous-Fintech_CFA-Montreal.pdf)
-
-* [The Canadian Fintech Ecosystem Map](https://ecosystem.formfintech.com/)
-
-* [World FinTech Report 2019, Capgemini](https://fintechworldreport.com/)
-
-* [The Most Innovative FinTech Companies in 2019, Forbes](https://www.forbes.com/fintech/2019/#5264de5a2b4c)
-
-* [The Future of FinTech and Banking, Accenture](https://www.accenture.com/au-en/insight-future-fintech-banking)
-
-* [Scanning the FinTech Landscape: 10 Disruptive Models, McKinsey & Company](https://www.mckinsey.com/industries/financial-services/our-insights/banking-matters/scanning-the-fintech-landscape)
-
-### Research Material
-
-As you research your company, you may find these types of resources to be useful:
-
-* The company’s website
-
-* The company’s blog
-
-* Company press releases (These can often be found on the Press page of the company's website, or via Google search.)
-
-* Websites of competitors
-
-* FinTech blogs and/or podcasts
-
-* Interviews with the company’s founders, CTOs, or project leads
-
-* Reports devoted to the particular FinTech domain you are focusing on (e.g.,  FinTech in the mortgage industry)
-
-Additionally, other online sources may be helpful, such as the examples you see here:
-
-* [Forbes](https://www.forbes.com/fintech/#39ae67bc13f1)
-
-* [McKinsey & Company](https://www.mckinsey.com/featured-insights/fintech)
-
-* [Reuters](https://www.reuters.com/news/archive/RCOMUS_Fintech)
-
-* [TechCrunch](https://techcrunch.com/tag/fintech/)
-
-* [Deloitte](https://www2.deloitte.com/us/en/pages/risk/articles/fintech-trends-insights.html)
-
-* [Built In](https://builtin.com/fintech)
-
-* [FinTech Weekly](https://www.fintechweekly.com/)
-
-* [KPMG](https://home.kpmg/us/en/home/industries/financial-services/fin-tech.html)
-
-* [Stackshare](https://stackshare.io/)
-
-* [Crunchbase](https://www.crunchbase.com/hub/fintech-startups#section-overview)
-
-* [Angelist](https://angel.co/finance-technology)
-
----
-
-## Submission
-
-* Create a repository for this homework on GitHub.
-
-* Upload the README file containing your case study report to this repository.
-
-* Submit the link to your GitHub repository to Bootcamp Spot.
-
----
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+###### Tasman Brown, 2021
