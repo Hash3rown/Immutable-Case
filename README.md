@@ -1,5 +1,5 @@
 
-# Immutable - Monetizing Gaming for the Player - A case study
+# Immutable - Monetizing Gaming for the Player - a case study
 
 ## Overview and Origin
 ![Logo](/Images/logo.jpg)
