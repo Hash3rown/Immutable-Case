@@ -1,7 +1,7 @@
 
 # Immutable - Monetizing Gaming for the Player
 ## Overview and Origin
-![Logo](images/logo.jpg)
+![Logo](/images/logo.jpg)
 
 * Name of company
 
@@ -49,7 +49,7 @@ Immutable has chosen Ethereum as its blockchain home, and thus it will ultimatel
 
 The core principal in focus here is ownership. Immutable uses NFT's to represent and solidify ownership of a digital asset (such as trading card, in game item or even digital artwork). This tokenized ownership can then be sold over an open market, allowing the user base to decide its worth. Given the transparent nature of a public blockchain, all sales, creations and transactions will be recorded and a sales history will be readily available for any item on the marketplace.
 
-![immutable x](images/EuUIDkhXMAQuaxb.jpeg)
+![immutable x](/images/EuUIDkhXMAQuaxb.jpeg)
 
 Immutable's exchange will be built on Immutable X, an engine that uses zero-knowledge (ZK) rollups on Ethereum, this is a scalability technology developed by Starkware, allowing massive groups of individual transactions to be batched and simultaneously verified by the blockchain, dramatically reducing costs and improving overall transaction rate (tps).
 
